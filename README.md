@@ -8,13 +8,13 @@
 
 I build AI-powered developer tools and automation systems, with hands-on ownership of model integration, context engineering, structured outputs, application architecture, and delivery.
 
-Through Probox Studio, I develop products that put AI into practical workflows: Code Reviewer brings contextual analysis into pull-request review, while Job Hunter combines information ingestion, semantic matching, validated model responses, and application tracking. My work connects models to the data, tools, interfaces, and failure-handling paths an application needs.
+Through Probox Studio, I develop products that put AI into practical workflows. Code Reviewer brings contextual analysis into pull-request review, connecting models to source code, repository context, review tools, and editable findings. My work connects models to the data, tools, interfaces, and failure-handling paths an application needs.
 
 That work builds on my mobile engineering background: Android since 2012, iOS since 2015, and Flutter since 2019. I've developed native applications, reusable SDKs, and hardware integrations across banking, mobility, healthcare, retail, and digital publishing.
 
 I'm currently a Mobile Tech Lead at Movida and run Probox Studio alongside my client engagements. I stay involved in implementation, architecture, debugging, code reviews, mentoring, and release delivery.
 
-[Portfolio](https://www.proboxstudio.com.br) · [LinkedIn](https://www.linkedin.com/in/paulo-e-r-moraes/) · [Email](mailto:paulo.moraes@proboxstudio.com.br) · [Code Reviewer](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases) · [Job Hunter](https://github.com/studiopaulomoraes/Probox-AI-Job-Hunter-releases)
+[Portfolio](https://www.proboxstudio.com.br) · [LinkedIn](https://www.linkedin.com/in/paulo-e-r-moraes/) · [Email](mailto:paulo.moraes@proboxstudio.com.br) · [Code Reviewer](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases)
 
 [AI engineering](#ai-engineering) · [Products](#ai-products-and-independent-work) · [Technologies](#technologies) · [Experience](#selected-engineering-experience) · [Writing](#writing-and-education)
 
@@ -57,20 +57,6 @@ I own the product architecture, implementation, and delivery of a desktop code-r
 - Built context assembly, related-file retrieval, large-input batching, and retry handling around the analysis workflow. Kept AI review comments editable as drafts before publication.
 - Added Sentry observability and automated multi-OS builds, package validation, release publishing, and update manifests with GitHub Actions.
 
-### Probox AI Job Hunter
-
-[Public releases and downloads](https://github.com/studiopaulomoraes/Probox-AI-Job-Hunter-releases)
-
-I build a local-first automation product that discovers remote opportunities, evaluates semantic fit against a professional profile, and tracks application progress.
-
-- Implemented a Python pipeline that ingests Gmail job alerts, normalizes and deduplicates postings, and persists records in SQLite.
-- Grounded matching in the portfolio's skills and career data, using JSON Schema and Pydantic validation for structured model responses.
-- Integrated configurable AI CLI providers and fallback behavior for quota limits, timeouts, and invalid responses.
-- Connected results to Trello and scheduled scans through a macOS menu-bar application, with packaging and update delivery.
-- Kept the domain independent of model providers and external services through Clean / Hexagonal Architecture, with automated tests, Ruff, and Pyright.
-
-**Core technologies:** Python, Pydantic, JSON Schema, SQLite, Typer, uv, Codex CLI, Gmail, Trello, macOS scheduling, pytest, Ruff, Pyright.
-
 ### Probox Studio Portfolio
 
 [Explore the portfolio](https://www.proboxstudio.com.br)
@@ -112,18 +98,6 @@ My React Native experience is centered on Android/iOS native modules and hardwar
 
 ## Selected engineering experience
 
-### Movida — Mobile Tech Lead
-
-I lead Flutter engineering for mobility and field-service applications, covering architecture, implementation, quality, and delivery across Android and iOS.
-
-- Work across Modular with BLoC/Cubit, Riverpod, Provider, and GetX codebases, including the evolution of existing applications and shared components.
-- Build and stabilize BLE integrations with field hardware, including discovery, connection recovery, persistent sessions, and failure handling. Connect Flutter to native Android/iOS capabilities through platform bridges.
-- Built the GeoFleetClient CI/CD pipeline on Azure DevOps, covering commit conventions, static analysis, style checks, SonarQube, and quality enforcement on pull requests.
-- Established per-file coverage gates of at least 90% for files changed in PRs, test reporting in Azure, and code generation with Pigeon and build_runner.
-- Automate APK, AAB, and IPA delivery with Fastlane, Firebase App Distribution, environment-specific releases, store publishing, and tagging. Created a reusable Flutter CI/CD template for new applications.
-
-**Core technologies:** Flutter, Dart, Modular, BLoC/Cubit, BLE, Platform Channels, Pigeon, Protobuf, Azure DevOps, SonarQube, Fastlane, Firebase App Distribution.
-
 ### The Philadelphia Inquirer, through Curotec — Senior Android Developer
 
 Worked on a production news application in an international team, contributing to native mobile modernization, architecture, performance, and release quality. The engagement concluded in October 2026.
@@ -154,6 +128,18 @@ Contributed to the Android architecture work behind a corporate-banking applicat
 - Contributed to the modularization pipeline and architectural restructuring during the engagement.
 
 **Core technologies:** Android, multi-module architecture, dependency injection, dependency management, build integration.
+
+### Movida — Mobile Tech Lead
+
+I lead Flutter engineering for mobility and field-service applications, covering architecture, implementation, quality, and delivery across Android and iOS.
+
+- Work across Modular with BLoC/Cubit, Riverpod, Provider, and GetX codebases, including the evolution of existing applications and shared components.
+- Build and stabilize BLE integrations with field hardware, including discovery, connection recovery, persistent sessions, and failure handling. Connect Flutter to native Android/iOS capabilities through platform bridges.
+- Built the GeoFleetClient CI/CD pipeline on Azure DevOps, covering commit conventions, static analysis, style checks, SonarQube, and quality enforcement on pull requests.
+- Established per-file coverage gates of at least 90% for files changed in PRs, test reporting in Azure, and code generation with Pigeon and build_runner.
+- Automate APK, AAB, and IPA delivery with Fastlane, Firebase App Distribution, environment-specific releases, store publishing, and tagging. Created a reusable Flutter CI/CD template for new applications.
+
+**Core technologies:** Flutter, Dart, Modular, BLoC/Cubit, BLE, Platform Channels, Pigeon, Protobuf, Azure DevOps, SonarQube, Fastlane, Firebase App Distribution.
 
 ### FullStack Labs — Mobile Systems Engineer
 
